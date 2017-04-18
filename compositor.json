@@ -1,0 +1,147 @@
+{
+  "name": "anishkny/vue-router",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Default",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
+    "fontWeight": 400,
+    "bold": 600,
+    "lineHeight": 1.5,
+    "typeScale": [
+      72,
+      48,
+      24,
+      20,
+      16,
+      14,
+      12
+    ],
+    "monospace": "Menlo, monospace",
+    "heading": {
+      "fontFamily": null,
+      "fontStyle": null,
+      "fontWeight": 600,
+      "lineHeight": 1.25,
+      "textTransform": null,
+      "letterSpacing": null
+    },
+    "h0": {},
+    "h1": {},
+    "h2": {},
+    "h3": {},
+    "h4": {},
+    "h5": {},
+    "h6": {},
+    "alternativeText": {},
+    "space": [
+      0,
+      8,
+      16,
+      32,
+      48,
+      64,
+      96
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "centered": false
+    },
+    "colors": {
+      "text": "#111",
+      "background": "#fff",
+      "primary": "#08e",
+      "secondary": "#059",
+      "highlight": "#e08",
+      "border": "#ddd",
+      "muted": "#eee"
+    },
+    "border": {
+      "width": 1,
+      "radius": 2
+    },
+    "link": {},
+    "button": {
+      "hover": {
+        "boxShadow": "inset 0 0 0 999px rgba(0, 0, 0, .125)"
+      }
+    },
+    "input": {},
+    "body": {
+      "margin": 0
+    },
+    "breakpoints": {
+      "xs": "@media screen and (max-width:40em)",
+      "sm": "@media screen and (min-width:40em)",
+      "md": "@media screen and (min-width:52em)",
+      "lg": "@media screen and (min-width:64em)"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "http://router.vuejs.org/",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/anishkny/vue-router",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/vue-router",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "vue-router",
+      "subhead": "The official router for Vue.js.",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "vue-router: The official router for Vue.js.",
+          "url": "http://router.vuejs.org/"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "anishkny",
+          "repo": "vue-router"
+        }
+      ],
+      "text": "v2.1.1"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n<blockquote>\n<p>This is vue-router 2.0 which works only with Vue 2.0. For the 1.x router see the <a href=\"https://github.com/vuejs/vue-router/tree/1.0\">1.0 branch</a>.</p>\n</blockquote>\n<h3>Introduction</h3>\n<p><code>vue-router</code> is the official router for <a href=\"http://vuejs.org\">Vue.js</a>. It deeply integrates with Vue.js core to make building Single Page Applications with Vue.js a breeze. Features include:</p>\n<ul>\n<li>Nested route/view mapping</li>\n<li>Modular, component-based router configuration</li>\n<li>Route params, query, wildcards</li>\n<li>View transition effects powered by Vue.js&apos; transition system</li>\n<li>Fine-grained navigation control</li>\n<li>Links with automatic active CSS classes</li>\n<li>HTML5 history mode or hash mode, with auto-fallback in IE9</li>\n<li>Customizable Scroll Behavior</li>\n</ul>\n<p>Get started with the <a href=\"http://vuejs.github.io/vue-router\">documentation</a>, or play with the <a href=\"https://github.com/vuejs/vue-router/tree/dev/examples\">examples</a> (see how to run them below).</p>\n<h3>Development Setup</h3>\n<pre><span class=\"hljs-comment\"># install deps</span>\nnpm install\n\n<span class=\"hljs-comment\"># build dist files</span>\nnpm run build\n\n<span class=\"hljs-comment\"># serve examples at localhost:8080</span>\nnpm run dev\n\n<span class=\"hljs-comment\"># lint &amp; run all tests</span>\nnpm <span class=\"hljs-built_in\">test</span>\n\n<span class=\"hljs-comment\"># serve docs at localhost:4000 (requires global gitbook-cli)</span>\nnpm run docs</pre><h2>Questions</h2>\n<p>For questions and support please use the <a href=\"https://gitter.im/vuejs/vue\">Gitter chat room</a> or <a href=\"http://forum.vuejs.org\">the official forum</a>. The issue list of this repo is <strong>exclusively</strong> for bug reports and feature requests.</p>\n<h2>Issues</h2>\n<p>Please make sure to read the <a href=\"https://github.com/vuejs/vue/blob/dev/.github/CONTRIBUTING.md#issue-reporting-guidelines\">Issue Reporting Checklist</a> before opening an issue. Issues not conforming to the guidelines may be closed immediately.</p>\n<h2>Contribution</h2>\n<p>Please make sure to read the <a href=\"https://github.com/vuejs/vue/blob/dev/.github/CONTRIBUTING.md\">Contributing Guide</a> before making a pull request.</p>\n<h2>Changelog</h2>\n<p>Details changes for each release are documented in the <a href=\"https://github.com/vuejs/vue-router/releases\">release notes</a>.</p>\n<h2>Stay In Touch</h2>\n<ul>\n<li>For latest releases and announcements, follow on Twitter: <a href=\"https://twitter.com/vuejs\">@vuejs</a></li>\n</ul>\n<h2>License</h2>\n<p><a href=\"http://opensource.org/licenses/MIT\">MIT</a></p>\n<p>Copyright (c) 2013-2016 Evan You</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/anishkny/vue-router",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/anishkny",
+          "text": "anishkny"
+        }
+      ]
+    }
+  ]
+}
