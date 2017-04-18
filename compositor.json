@@ -98,10 +98,6 @@
         {
           "href": "https://github.com/anishkny/vue-router",
           "text": "GitHub"
-        },
-        {
-          "href": "https://npmjs.com/package/vue-router",
-          "text": "npm"
         }
       ]
     },
@@ -120,8 +116,7 @@
           "user": "anishkny",
           "repo": "vue-router"
         }
-      ],
-      "text": "v2.1.1"
+      ]
     },
     {
       "component": "article",
